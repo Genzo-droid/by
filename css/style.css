@@ -369,6 +369,12 @@ template {
   color: light;
 }
 
+.button--outline {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: light;
+}
+
 .container {
   width: 85%;
   max-width: 1256px;
@@ -434,6 +440,20 @@ template {
           align-items: flex-start;
   background: #131313 url("../img/hero-bg.jpg") no-repeat center/cover;
   height: 100vh;
+  color: #fff;
+}
+
+.hero__text {
+  font-size: 22px;
+  max-width: 500px;
+}
+
+.hero__button {
+  margin-right: 20px;
+}
+
+.hero__content {
+  max-width: 670px;
 }
 
 .hero__instagram {
@@ -488,6 +508,13 @@ template {
 
 .title {
   margin: 0;
+  font-family: 'Yeseva One', cursive;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.title--primary {
+  color: #E3B873;
 }
 
 *, *:before, *:after {
