@@ -483,6 +483,55 @@ body {
   .title--primary {
     color: #E3B873; }
 
+.completed {
+  background-color: #131313; }
+  .completed__title {
+    color: #fff;
+    font-size: 1.29rem;
+    line-height: 1.6; }
+  .completed__plan {
+    padding-top: 10.71rem; }
+
+.plan {
+  display: flex;
+  justify-content: space-between; }
+  .plan__completed {
+    max-width: 31.57rem; }
+  .plan__image {
+    max-width: 48.5rem; }
+
+.project__heading {
+  font-family: 'Yeseva One', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.93rem;
+  color: #E3B873;
+  line-height: 1.4;
+  margin: 0; }
+
+.project__wrap {
+  padding-top: 3rem;
+  max-width: 22.36rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.project__title {
+  font-family: 'Yeseva One', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.29rem;
+  color: #E3B873;
+  line-height: 1.4; }
+
+.project__subtitle {
+  color: #fff;
+  font-size: 1.07rem;
+  line-height: 1.6; }
+
+.project__info {
+  width: 50%;
+  padding-right: 2.86rem;
+  padding-bottom: 2.43rem; }
+
 @media screen and (max-width: 1200px) {
   html {
     font-size: 12px; }
