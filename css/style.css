@@ -536,7 +536,22 @@ img {
   padding-bottom: 2.43rem; }
 
 .types__section-title {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  margin-top: 5rem; }
+
+.types__card {
+  max-width: 392px; }
+
+.types__image {
+  position: relative; }
+  .types__image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); }
 
 .row {
   display: flex;
