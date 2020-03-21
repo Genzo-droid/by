@@ -789,6 +789,22 @@ img {
   .footer__menu {
     background-color: #131313;
     padding: 4.285rem 0; }
+  .footer__address {
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.428rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #E3B873; }
+  .footer__icon {
+    text-align: center;
+    margin-bottom: 3rem; }
+  .footer__map {
+    max-width: 66rem;
+    margin: 0 auto; }
+
+.icon__footer {
+  margin-right: 1rem; }
 
 .modal {
   opacity: 0;
